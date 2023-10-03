@@ -1,0 +1,23 @@
+/* src/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080a1c;
+  }
+
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+      background: #080a1c;
+      border-radius: 5px;
+    }
+    
+    /* Change scrollbar styles on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #888888c2;
+  }
